@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: transparent !important;
+	background-image: url(../images/3-1.png);
+	font-family: Mehrbold;
+	font-size: 25px;
+}
+/* font-Mehrbold */
+@font-face {
+	font-family: Mehrbold;
+	src: url('../font/mehrbold.eot');
+	src: url('http://fonts.codearena.ir/b/mehrbold/mehrbold.eot?#iefix') format('embedded-opentype'),  url('../font/mehrbold.woff') format('woff'),  url('../font/mehrbold.ttf') format('truetype');
+	font-weight: normal;
+}
+/*	html {
+		   background: url(Qamar-Bani-Hashem.jpg) no-repeat center center fixed;
+		   -webkit-background-size: cover;
+		   -moz-background-size: cover;
+		   -o-background-size: cover;
+		   background-size: cover;
+		}*/
+		
+.login-singin {
+	margin-top: 50px;
+	direction: rtl;
+}
+.font-mehrdad {
+	/*font-family: Mehrbold;*/
+}
+.font-tahoma {
+	font-family: "Arial Black";
+}
+
+.e-l-f{
+	font-family:Arial, Helvetica !important;
+	direction:ltr !important;
+	text-align:left !important;
+
+}
