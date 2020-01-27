@@ -126,9 +126,9 @@ a:hover img {
 <div class="container">
 <div class="row col-12 alert alert-dark mt-5">
   <div class="col-6 title">
-    <h2>سامانه زائر-> تراکنش های مالی</h2>
+    <h2>سامانه -> تراکنش های مالی</h2>
   </div>
-  <div class="col-6 logo-uni" > <img src="image/1_Velaiat.png" width="40" height="40" /> <img src="image/jz9z_-4.png" width="40" height="40" /> 
+  <div class="col-6 logo-uni" > 
   
   
   <a href="cpanel.php" class="btn btn-outline-danger float-left ml-2 " >صفحه نخست</a>
@@ -223,7 +223,7 @@ a:hover img {
   <div class="col-6 title">
     <h2>کاربر: <?php echo $_SESSION[ 'name' ]." " . $_SESSION[ 'family' ] ?></h2>
   </div>
-  <div class="col-6 logo-uni" > <img src="image/1_Velaiat.png" width="40" height="40" /> <img src="image/jz9z_-4.png" width="40" height="40" />
+  <div class="col-6 logo-uni" > 
    
   </div>
 </div>
