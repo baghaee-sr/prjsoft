@@ -32,7 +32,7 @@
 	  $sql="INSERT INTO `vam`(`id`, `meliid`,`name` ,`se`, `amount`, `month`, `status`, `date`, `time`) VALUES (NULL,$meliid,'$name','$se',$amont,$mon,'0','','')";
 	  $conn->exec($sql);
 		if($conn){
-		$error='<div class="alert alert-success col-12 mt-3 " ><div class="container t-d-r font-homa" >درخواست شما با موفقیت ثبت شد پس از بررسی مدیر کاروان نتیجه درخواست در همین صفحه قابل مشهاده خواهد بود</div></div>';
+		$error='<div class="alert alert-success col-12 mt-3 " ><div class="container t-d-r font-homa" >درخواست شما با موفقیت ثبت شد پس از بررسی مدیر  نتیجه درخواست در همین صفحه قابل مشهاده خواهد بود</div></div>';
 		
 		}
 		else{
@@ -98,10 +98,10 @@ a:hover img {
 <div class="container">
 <div class="row col-12 alert alert-dark mt-5">
   <div class="col-6 title">
-    <h2>سامانه زائر-> تراکنش های مالی</h2>
+    <h2>سامانه -> تراکنش های مالی</h2>
   </div>
   <div class="col-6 logo-uni" >
-   <img src="image/1_Velaiat.png" width="40" height="40" /> <img src="image/jz9z_-4.png" width="40" height="40" /> 
+   
   
   
   <a href="cpanel.php" class="btn btn-outline-danger float-left ml-2 " >صفحه نخست</a>
@@ -281,7 +281,7 @@ a:hover img {
   <div class="col-6 title">
     <h2>کاربر: <?php echo $_SESSION[ 'name' ]." " . $_SESSION[ 'family' ] ?></h2>
   </div>
-  <div class="col-6 logo-uni" > <img src="image/1_Velaiat.png" width="40" height="40" /> <img src="image/jz9z_-4.png" width="40" height="40" />
+  <div class="col-6 logo-uni" > 
    
   </div>
 </div>

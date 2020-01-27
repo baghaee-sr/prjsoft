@@ -118,7 +118,7 @@ a:hover img {
   <div class="col-6 title">
     <h2>حساب کاربری</h2>
   </div>
-  <div class="col-6 logo-uni" > <img src="image/1_Velaiat.png" width="40" height="40" /> <img src="image/jz9z_-4.png" width="40" height="40" /> 
+  <div class="col-6 logo-uni" >  
   
   
   <a href="cpanel.php" class="btn btn-outline-danger float-left ml-2 " >صفحه نخست</a>
@@ -185,7 +185,7 @@ foreach($data_old as $data_user_conn)
           </div>
            <div class="col-lg-3 col-md-12">
             <h5 class="float-right m-3">شماره گذرنامه :</h5>
-            <input type="tel" class="form-control m-4" placeholder="" aria-label="" aria-describedby="addon-wrapping" id="passnumber" name="passport-nu" value="<?php echo  $data_user_conn["passnumber"]; ?>">
+            <input type="tel" class="form-control m-4" placeholder="" aria-label="" aria-describedby="addon-wrapping" id="passnumber" name="passport-nu" value="">
           </div>
           <!-------------------------------------- line ---------------------------------------->
           <div class="col-lg-8 col-md-12">
@@ -228,7 +228,7 @@ foreach($data_old as $data_user_conn)
   <div class="col-6 title">
     <h2>کاربر: <?php echo $_SESSION[ 'name' ]." " . $_SESSION[ 'family' ] ?></h2>
   </div>
-  <div class="col-6 logo-uni" > <img src="image/1_Velaiat.png" width="40" height="40" /> <img src="image/jz9z_-4.png" width="40" height="40" />
+  <div class="col-6 logo-uni" > 
    
   </div>
 </div>
