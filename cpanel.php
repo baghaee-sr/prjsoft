@@ -109,7 +109,7 @@ a:hover img{transform:scale(1.2,1.2); }
      
      
      <div class="col-md-4 icon">
-          <a href="#">
+          <a href="variz.php">
           <img src="image/folder_add.png" width="100" height="100" />
           <h5>واریز وجه ماهیانه</h5>
           </a>
